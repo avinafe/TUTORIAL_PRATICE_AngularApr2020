@@ -1,0 +1,19 @@
+<h1>Basic promises example</h1>
+<script>
+
+    function getPromiseResolved(){
+        return Promise.resolve('data')
+    }
+
+    function getPromiseRejected(){
+        return Promise.reject('error info')
+    }
+
+/*
+    getPromiseResolved().then( x => {console.log(x)}, x => {console.log('error: '+x)} )
+    getPromiseRejected().then( x => {console.log(x)}, x => {console.log('error: '+x)} )
+*/
+
+  //this is a basic example to help people learn how to use promises
+  //and get ready to learn observables, hence it does not use .catch syntax
+</script>
